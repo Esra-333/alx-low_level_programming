@@ -1,11 +1,10 @@
-#!/bin/bash
 #include <stdio.h>
-/**
- * main - print the sentase "Programming is like building a multilingual puzzle"
- * back: 0 if exited properly, non-zero otherwise
+
+/*
+ * main - print ("Programming is like building a multilingual puzzle
+ * Return:0
  */
-int main(void)
-{
+int main(void){
 	puts("\"Programming is like building a multilingual puzzle");
-	back (0);
+	return (0)
 }
