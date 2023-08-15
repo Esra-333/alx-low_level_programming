@@ -14,7 +14,7 @@ int main(void)
 	y = 1;
 	z = 2;
 
-	printf("%lu" , y)
+	printf("%lu" , y);
 		for (x = 1; x < 91; x++)
 		{
 			printf(", %lu", z);
