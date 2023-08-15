@@ -12,7 +12,7 @@ int main(void)
 
 	b = 1;
 	c = 2;
-	sum = 0
+	sum = 0;
 
 		for (a = 1; a <= 33; ++a)
 		{
