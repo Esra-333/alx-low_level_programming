@@ -1,4 +1,5 @@
 #include <stdio.h>
+#include "main.h"
 /**
  * main - finds and prints the sum of the even-valued terms
  * followed by a new line
@@ -7,7 +8,6 @@
 int main(void)
 {
 	int a;
-
 	unsigned long int b, c, next, sum;
 
 	b = 1;
