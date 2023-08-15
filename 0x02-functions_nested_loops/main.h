@@ -4,7 +4,7 @@
 #include <stdio.h>
 
 
-Int _putchar(char c);
+int _putchar(char c);
 
 
 
