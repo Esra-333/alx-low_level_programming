@@ -20,8 +20,8 @@ int main(void)
 			{
 				sum = sum + b;
 			}
-			next = b+c;
-			b = c
+			next = b + c;
+			b = c;
 			c = next;
 		}
 	printf("%lu\n", sum);
