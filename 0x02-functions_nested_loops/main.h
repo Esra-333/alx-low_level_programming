@@ -1,7 +1,11 @@
-#ifndef MIAN_H
-#define MIAN_H
+#ifndef MAIN_H
+#define MAIN_H
 
 #include <stdio.h>
+
+
 Int _putchar(char c);
+
+
 
 #endif
