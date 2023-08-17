@@ -1,6 +1,6 @@
 #include "main.h"
 /**
- * more number - prints 10 times and you can only use _putchar three time
+ * more numbers - prints 10 times and you can only use _putchar three time
  * followed by a new line
  * Return: Always 0
  */
