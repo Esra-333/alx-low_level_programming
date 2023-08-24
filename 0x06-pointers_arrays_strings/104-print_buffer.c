@@ -12,21 +12,21 @@ void print_line(char *c, int s, int l)
 	int j, k;
 
 	for (j = 0; j <= 9; j++)
-		if (j <= s)
-			printf("%02x", c[1 * 10 + j]);
-		else
-			printf("  ");
+	if (j <= s)
+	printf("%02x", c[1 * 10 + j]);
+	else
+	printf("  ");
 	if (j % 2)
-		putchar(' ');
+	putchar(' ');
 }
 for (k = 0; k <= s; k++)
 {
-	if (c[1 * 10 + k] > 31 && c[1 * 10 + k]
-			putchar(c[1 * 10 + k]);
-			else
-			putchar('.');
-			}
-			}
+if (c[1 * 10 + k] > 31 && c[1 * 10 + k]
+putchar(c[1 * 10 + k]);
+else
+putchar('.');
+}
+}
 			/**
 			 * print_buffer - prints a buffer
 			 * @b: buffer to print
@@ -42,11 +42,11 @@ for (k = 0; k <= s; k++)
 			printf("%08x: ", i * 10);
 			if (i < size / 10)
 			{
-				print_line(b, 9, i);
+			print_line(b, 9, i);
 			}
 			else
 			{
-				print_line(b, size % 10 - 1, i);
+			print_line(b, size % 10 - 1, i);
 			}
 			putchar('\n');
 			}
