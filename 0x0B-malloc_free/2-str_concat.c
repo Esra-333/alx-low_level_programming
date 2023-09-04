@@ -1,11 +1,11 @@
 #include <stdlib.h>
 #include "main.h"
 /**
- * _strlen - find length of string
+ * _strlen - find length of strings
  * @s: string
  * return: int
  */
-int _strlen(char *s)
+int_strlen(char *s)
 {
 	int size = 0;
 
