@@ -9,14 +9,15 @@ int _strlen(char *s)
 {
 	int size = 0;
 
-	for (; s[size] != '\0'; size++);
+	for (; s[size] != '\0'; size++)
+	;
 	return (size);
 }
 /**
  * *str_concat - concatanates two strings
  * @s1: string1
  * @s2: string2
- * return: pointer
+ * Return: pointer to the new string created (Success), or NULL (Error)
  */
 char *str_concat(char *s1, char *s2)
 {
