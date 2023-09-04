@@ -5,7 +5,7 @@
  * @s: string
  * return: int
  */
-int_strlen(char *s)
+int _strlen(char *s)
 {
 	int size = 0;
 
