@@ -80,10 +80,12 @@ int main(int argc, char *argv[])
 		{
 			dprintf(STDERR_FILENO,
 					"Error: Can't write to %s\n", argv[2]);
+			free(buffer);
 			exit(99);
 		}
 		r = read(from, buffer, 1024);
-		to = open(argv[2], O_WRONLY | O_APPEND)
+		to = open(argv[2], O_WRONLY | O_APPEND);
+
 	} while (r > 0);
 
 	free(buffer);
