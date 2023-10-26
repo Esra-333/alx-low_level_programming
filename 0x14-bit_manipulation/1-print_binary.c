@@ -9,18 +9,18 @@
  */
 void print_binary(unsigned long int n)
 {
-	int bit = sizeof(n) * 8, printed = 0;
+	int bit = sizeof(n) * 8, outputs = 0;
 
 	while (bit)
 	{
 		if (n & 1l << --bit)
 		{
 			_putchar('1');
-			printed++;
+			outputs++;
 		}
-		else if (printed)
+		else if (outputs)
 			_putchar('0');
 	}
-	if (!printed)
+	if (!outputs)
 		_putchar('0');
 }
