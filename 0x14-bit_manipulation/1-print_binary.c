@@ -1,4 +1,6 @@
 #include "main.h"
+#include <limits.h>
+
 
 /**
  * print_binary - print  numbwr as binary string
@@ -7,20 +9,18 @@
  */
 void print_binary(unsigned long int n)
 {
-	int bit = sizeof(n) * 8;
-
-	num_printed = 0;
+	int bit = sizeof(n) * 8, printed = 0;
 
 	while (bit)
 	{
 		if (n & 1l << --bit)
 		{
-			-putchar ('1');
-			num_printed++;
+			_putchar('1');
+			printed++;
 		}
-		else if (num_printed)
-			-putchar('0');
+		else if (printed)
+			_putchar('0');
 	}
-	if (!num_printed)
-		-putchar('0');
+	if (!printed)
+		_putchar('0');
 }
