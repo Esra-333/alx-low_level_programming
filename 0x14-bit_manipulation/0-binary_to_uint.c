@@ -7,7 +7,7 @@
  * Return: Converted number. or 0 if
  * there is one or more chars in the string
  */
-unsigned int binary_to_uint(const char *b);
+unsigned int binary_to_uint(const char *b)
 {
 	unsigned int str_chl = 0;
 	int x;
