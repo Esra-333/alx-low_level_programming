@@ -23,7 +23,7 @@ int finsh_function(int num, char *str)
 			dprintf(STDERR_FILENO, "Error: Can't write to %s\n", str);
 			value = 99;
 			break;
-deafult:
+default:
 			dprintf(STDERR_FILENO, "Error: Can't close fd %d", num);
 			value = 100;
 			break;
