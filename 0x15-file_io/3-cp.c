@@ -1,4 +1,6 @@
 #include "main.h"
+#include <stdio.h>
+#include <stdlib>
 #define BUFFERSIZE 1204
 /**
  * main - Copies content
