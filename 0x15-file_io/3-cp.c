@@ -3,7 +3,7 @@
 /**
  * finsh_function - function that deals with all standard errors
  * @num: exit status number or file descriptor
- * @str: file name either to_file or from_file, or NULL
+ * @str: file name either in_file or out_file, or NULL
  * Return: 97, 98, 99, or 100 depending on input num
  */
 int finsh_function(int num, char *str)
