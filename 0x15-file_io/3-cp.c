@@ -32,7 +32,8 @@ int main(int argc, char **argv)
 	{
 		read_file = read(fd_in, buffer, BUFFERSIZE);
 		if (read_file == -1)
-			dprintf(STDERR_FILENO, "Error: Can't read from file %s\n", argv[1]), exit(98);
+			dprintf(STDERR_FILENO,
+			 "Error: Can't read from file %s\n", argv[1]), exit(98);
 
 		if (read_file > 0)
 		{
