@@ -1,4 +1,5 @@
 #include "main.h"
+#define BUFLEN 1024
 /**
  * finsh_function - function that deals with all standard errors
  * @num: exit status number or file descriptor
