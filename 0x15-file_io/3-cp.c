@@ -1,5 +1,5 @@
 #include "main.h"
-#define BUFLEN 1024
+#define BUFFERSIZE 1204
 /**
  * main - Copies content
  * @argc: Arguments count.
@@ -12,6 +12,7 @@ int main(int argc, char **argv)
 	char buffer[BUFFERSIZE];
 
 	mode_t mode_file = S_IRUSR | S_IWUSR | S_IRGRP | S_IWGRP | S_IROTH;
+	/*Block of algorithm for validate data*/
 
 	if (argc != 3)
 		dprintf(STDERR_FILENO, "Usage: cp file_from file_to\n"), exit(97);
