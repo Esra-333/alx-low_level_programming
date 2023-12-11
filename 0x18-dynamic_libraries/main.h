@@ -1,5 +1,6 @@
 #ifndef DYNAMIC_LIB
 #define DYNAMIC_LIB
+
 #include <stdlib.h>
 int _putchar(char c);
 int _islower(int c);
