@@ -20,7 +20,6 @@ int rec_search(int *array, size_t size, int value)
 	for (i = 0; i < size; i++)
 		printf("%s %d", (i == 0) ? ":" : ",", array[i]);
 	printf("\n");
-	
 	if (half && size % 2 == 0)
 		half--;
 	if (value == array[half])
@@ -29,7 +28,6 @@ int rec_search(int *array, size_t size, int value)
 			return (rec_search(array, half + 1, value));
 		return ((int)half);
 	}
-	
 	if (value < array[half])
 		return (rec_search(array, half + 1, value));
 	half++;
